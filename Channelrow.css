@@ -1,0 +1,45 @@
+.searchpage_channel {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  width: 70%;
+}
+
+.channeldiscription {
+  display: flex;
+  flex-direction: column;
+}
+
+.channel_avatar {
+  height: 136px !important;
+  width: 136px !important;
+  margin: 10px 60px;
+}
+.channeldiscription > p {
+  color: #606060;
+  font-size: 15px !important;
+  margin-top: 1px;
+  margin-bottom: 3px;
+}
+
+h4 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.channelbutton {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  margin-left: 20px;
+}
+
+.channelbutton > Button {
+  background-color: lightgray;
+  border-radius: 0;
+}
+
+.channelbutton > #notification {
+  color: grey;
+  margin-left: 10px;
+}
